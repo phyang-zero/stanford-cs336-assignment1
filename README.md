@@ -1,4 +1,15 @@
 # CS336 Spring 2025 Assignment 1: Basics
+CS336 Assignment 1 的个人实现，包括一个 bpe 分词器和一个 Transformer 模型。已通过所有课程提供的 pytest 测试。代码包含较多的中文注释，内容仅供参考。
+## 目录结构
+主要代码在 `./cs336_basics` 下，包含以下模块：
+```text
+cs336_basics/
+├── tokenizer.py      # BPE分词器。
+├── transformer.py    # Transformer模型架构。
+└── train.py          # 训练主脚本和辅助工具。
+```
+
+## 原 README.md
 
 For a full description of the assignment, see the assignment handout at
 [cs336_spring2025_assignment1_basics.pdf](./cs336_spring2025_assignment1_basics.pdf)
@@ -47,4 +58,3 @@ gunzip owt_valid.txt.gz
 
 cd ..
 ```
-
